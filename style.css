@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Red Hat Display", sans-serif;
+    text-decoration: none;
+}
+
+body{
+    background-image: url(images/pattern-background-desktop.svg) ;
+    background-position: center; 
+    background-repeat: no-repeat;
+    background-size: cover; 
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.contenair{
+   background-color: rgb(255, 255, 255); 
+    display: flex;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 30px;
+    overflow: hidden;
+    margin-top: 50px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+
+.img{
+    width: 100%;
+    
+    
+}
+
+img{
+    height: 180px;
+    
+    width: 100%;
+}
+
+h2{
+    margin-top: 20px;
+    color: hsl(223, 47%, 23%);
+}
+
+
+.a{
+    color: gray;
+    font-size: 12px;
+    margin-top: 50px;
+}
+
+.b{
+    color: gray;
+    font-size: 12px;
+    margin-top: 0px;
+}
+
+.c{
+    color: gray;
+    font-size: 12px;
+    margin-top: 0px;
+}
+
+.song-sec{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: hsl(225, 100%, 98%);
+    padding: 10px 20px;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+
+
+.icon{
+    background-color: hsl(225, 100%, 94%);
+    margin-right: 30px;
+    border-radius: 60%;
+    padding: 10px;
+    font-size: 16px;
+    height: 50px;
+    width: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+}
+
+.price {
+    display: flex;
+    flex-direction: column;
+    padding-right: 30px;
+}
+
+.price h4{
+    font-size: 14px;
+
+}
+
+.price p{
+    font-size: 12px;
+}
+
+.change {
+    font-size: 14px;
+    color: hsl(245, 75%, 52%);
+    font-weight: 900;
+    text-decoration: underline;
+}
+
+
+.proceed{
+    background-color: hsl(245, 75%, 52%);
+    padding: 10px 80px;
+    border-radius: 20px;
+    margin-top: 30px;
+    color: white;
+    font-size: 16px;
+    font-weight: 800;
+}
+
+.proceed:hover{
+    background-color: hsl(223, 47%, 23%);
+}
+
+.cancel{
+    padding-bottom: 20px;
+    margin-top: 10px;
+    color: black;
+    font-weight: 500;
+}
+
+footer {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    color: rgb(0, 0, 0);
+    margin-top: auto; /* يجعل الفوتر دائمًا في أسفل الصفحة */
+    padding-bottom: 10px;
+    
+}
+
+
+.name{
+    color: hsl(245, 75%, 52%);
+    font-weight: 600;
+}
